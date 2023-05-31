@@ -1,3 +1,5 @@
 package elfak.rmas.myplaces.data
 
-data class MyPlace(var name:String, var description:String)
+data class MyPlace(var name:String, var description:String){
+    override fun toString(): String = name
+}
